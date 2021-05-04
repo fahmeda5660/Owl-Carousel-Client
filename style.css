@@ -1,0 +1,77 @@
+.slider_header h2{
+    font-size:30px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 60px;
+}
+.line{
+    height: 4px;
+    width: 16px;
+    background: black;
+    position: relative;
+    margin: auto;
+    border-radius: 7px;
+}
+.line::before{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 4px;
+    background: #0cc747;
+    right: 134%;
+    bottom: 0%;
+    border-radius: 7px;
+}
+.line::after{
+    position: absolute;
+    content: '';
+    background: #0cc747;
+    height: 4px;
+    width: 20px;
+    right: -163%;
+    bottom: 0%;
+    border-radius: 7px;
+}
+.single-item {
+    border: 1px solid #e9e6e6;
+    margin-top: 116px;
+    padding: 15px;
+}
+.fa-quote-right{
+    float: left;
+    color: #05a805;
+    padding: 74px 12px;
+}
+.single-item h4{
+    position: relative;
+}
+.single-item h4::before{
+    position: absolute;
+    content: "";
+    height: 145px;
+    width: 2px;
+    background: #e9e6e6;
+    left: -10%;
+    bottom: -118%;
+}
+.content{
+    padding-left: 80px;
+}
+p{
+    color: #3b3a3a;
+    line-height: 24px;
+}
+.owl-theme .owl-dots .owl-dot span{
+    width: 35px;
+    height: 3px;
+    margin:5px 7px;
+    background:#39b911;
+    display:block;
+    border-radius:30px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #000;
+}
+.owl-theme .owl-dots .owl-dot {
+    outline: none;
+}
